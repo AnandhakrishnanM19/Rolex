@@ -1,0 +1,433 @@
+.body{
+    border: 0;
+}
+.header{
+    background: linear-gradient(90deg, #0b3e27, #197149);
+    display: grid;
+    height: 100px;
+    display: flex;
+    position:fixed;
+    width: 100%;
+     z-index: 1000; 
+     top: 0;
+   
+}
+.image{
+    width: auto;
+     height: 100px;
+    display: grid;
+    padding-bottom: 50%;
+     padding-bottom: 50px;
+}
+.menu{
+    width: 35%;
+    padding-left:10% ;
+    padding-top: 20px;
+    color: #fff;
+}
+.Search-container a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: large;
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 35px;
+}
+.fa-solid.fa-location-dot{
+    padding-left: 150px;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.word{
+    width: 65%;
+    height:37%;
+    position:absolute;
+    top:100px;
+    left:20%;
+    z-index:1;
+}
+.adjust{
+    position: absolute;
+    justify-self: center;
+}
+.adjust h1{
+     font-weight:bolder;
+    font-size: -webkit-xxx-large;
+    margin-top: 40%;
+
+    color: #fff;
+    
+}
+.adjust p{
+    position: absolute;
+    padding-left: 53px;
+    color: #fff;
+    padding-top: 29%;
+}
+.word a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 72%;
+    position: absolute;
+    margin-left: 37%;
+    font-weight: bolder;
+}
+.Sub-container{
+    width: auto;
+    height: 250px;
+}
+.write{
+    width: 50%;
+    float: left;
+    height: 95%;
+}
+.write h2{
+    color: #197149;
+    padding-left: 10%;
+   font-size: xxx-large;
+}
+.features{
+    width: 50%;
+    float: right;
+    height: 90%;
+}
+.features p{
+    padding-left: 12%;
+    font-weight: lighter;
+    font-size: x-large;
+    padding-top: 5%;
+      
+}
+.features a{
+    text-decoration: none;
+    color: #197149;
+    padding-left: 12%;
+    font-weight: 600;
+    font-size: larger;
+}
+.features a :hover{
+    color: black;
+}
+.Pictures{
+    width: 100%;
+    height:80%;
+    border: none;
+    position: absolute;
+  
+}
+.Pictures h1{
+    position: absolute;
+    padding-top: 10px;
+
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 700px; 
+    display: flex;
+    align-items: center;
+    padding-left: 80px; 
+    color: #000;
+    
+}
+.banner.land{
+    background: url("https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1920/v1742229250/rolexcom/collection/hub/2025/collection-rolex-watches-land-dweller-m127334-0001_2503stojan_002") no-repeat center center/cover
+}
+.banner.day{
+background-image: 
+  linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0) 60%), 
+  url("https://media.rolex.com/image/upload/v1710348100/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-lady-datejust-m279135rbr-0001-10160_rsa_ladydatejust_28_m279135rbr_0001_carrousel_24.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.banner.sky{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_2440/v1711995788/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-sky-dweller-m336935-0008-10152_rsa_cap_everose_42_carrousel_24_19_02_2024 ") no-repeat center center/cover
+}
+.banner.Lady{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348100/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-lady-datejust-m279135rbr-0001-10160_rsa_ladydatejust_28_m279135rbr_0001_carrousel_24") no-repeat center center/cover;
+}
+.banner.Datejust{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3200/v1710348088/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-datejust-m126234-0051-10161_rsa_datejust_31_m278274_0018_carrousel_24") no-repeat center center/cover;
+}
+.banner.Oyster{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_1920/v1742229468/rolexcom/collection/hub/2025/collection-rolex-watches-oyster-perpetual-m134300-0006_2503stojan_002") no-repeat center center/cover
+}
+.banner.Daytona{
+    background: url(" https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1741797374/rolexcom/collection/hub/2025/collection-rolex-watches-cosmograph-daytona-m126508-0008_2503stojan_002") no-repeat center center/cover;
+}
+.banner.Submariner{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348073/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-submariner-m124060-0001-10156_rsa_submariner_41_m124060_0001_carrousel_24") no-repeat center center/cover;
+}
+.banner.Sea{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348133/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-sea-dweller-10158_rsa_seadweller_43_m126603_0001_carrousel_24") no-repeat center center/cover;
+}
+.banner.Deepsea{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348124/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-deepsea-m136668lb-0001-10153_rsa_caraibes_44_carrousel_24_ab") center center/cover;
+}
+.banner.GMT{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348095/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-gmt-master-ii-m126710grnr-0004-10149_rsa_topolino_oyster_carrousel_24 ") center center/cover;
+}
+.banner.Yacht{
+    background: url(" https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348078/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-yacht-master-m226627-0001-10154_rsa_yachtmaster_42_m226627_0001_carrousel_24") no-repeat center center/cover;
+}
+.banner.Explorer{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_2440/v1742229548/rolexcom/collection/hub/2025/colelction-rolex-watches-explorer-ii-m226570-0001_2409jva_001") no-repeat center center/cover;
+}
+.banner.King{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1710348114/rolexcom/new-watches/2024/hub-watches/collection-rolex-watches-air-king-m126900-0001-10155_rsa_airking_40_m126900_0001_carrousel_24") no-repeat center center/cover;
+}
+.banner.last{
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3840/v1741796944/rolexcom/collection/hub/2025/collection-rolex-watches-perpetual-1908-m52508-0008_2503stojan_002 ") no-repeat center center/cover;
+}
+.banner.footer{
+    border: none;
+    width: auto;
+    height: 300px;
+    background: url("https://media.rolex.com/image/upload/q_auto:eco/f_auto/c_limit,w_3200/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait") no-repeat center center/cover
+}
+.banner-text{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: Fade 3s ease-out forwards;
+}
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+.banner-text p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+.banner-text a:hover {
+    text-decoration: underline;
+        
+}
+.banner a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+@keyframes Fade {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+.banner-text.day h1{
+    color: #fff;
+} 
+.banner-text.day p{
+    color: #fff;
+}
+.banner-text.day a{
+    color: #fff;
+}
+.banner-text.Datejust h1{
+    color: #fff;
+}
+.banner-text.Datejust a{
+    color: #fff;
+}
+.banner-text.Datejust p{
+    color: #fff;
+}
+.banner-text.Oyster h1{
+    color: #fff;
+}
+.banner-text.Oyster p{
+    color: #fff;
+}
+.banner-text.Oyster a{
+    color: #fff;
+}
+.banner-text.Submariner h1{
+    color: #fff;
+}
+.banner-text.Submariner p{
+    color: #fff;
+}
+.banner-text.Submariner a{
+    color: #fff;
+}
+.banner-text.Sea h1{
+    color: #fff;
+}
+.banner-text.Sea p{
+    color: #fff;
+}
+.banner-text.Sea a{
+    color: #fff;
+}
+.banner-text.Deepsea h1{
+    color: #fff;
+}
+.banner-text.Deepsea p{
+    color: #fff;
+}
+.banner-text.Deepsea a{
+    color: #fff;
+}
+.banner-text.Explorer h1{
+    color: #fff;
+}
+.banner-text.Explorer p{
+    color: #fff;
+}
+.banner-text.Explorer a{
+    color: #fff;
+}
+.banner-text.King h1{
+    color: #fff;
+}
+.banner-text.King p{
+    color: #fff;
+}
+.banner-text.King a{
+    color: #fff;
+}
+.Sub-foot{
+    width: 100%;
+    height: 100px;
+}
+.home{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+}
+.home a{
+    text-decoration: none;
+    color: #197149;
+    margin-top: 30px;
+    margin-left: 90px;
+    position: absolute;
+}
+.home i{
+    color: #197149;
+    margin-top: 30px;
+    margin-left: 135px;
+    position: absolute;
+}
+.social-media{
+    width: 100%;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    gap: 17px;
+    color: #197149;
+}
+.Major-footer{
+    color:#FFFAFA;
+}
+.Logo{
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+.Logo img{
+    height: auto;
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.Rolex.watches{
+    padding-top: 60px;
+    width: 25%;
+    float: left;
+}
+.Rolex.watches a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+
+
+}
+.Rolex.watches li:first-child a {
+font-size:xx-large;
+font-weight: 600;
+}
+.Rolex.watches.a :hover{
+    color: #197149;
+
+}
+.Service{
+    padding-top: 60px;
+    width: 25%;
+    float: left;
+}
+.Service a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.Service ul:first-child li:first-child a {
+    font-size: xx-large;
+    font-weight: 600;
+}
+.Service .notice {
+    font-weight: 600;
+    font-size: large;
+}
+.Language{
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.Language a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 60px;
+    position: absolute;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.Language hr{
+    width: 90%;
+    margin-left: 60px;
+}
+.Language {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  padding: 20px;
+
+}
+.footer h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: xx-large;
+    margin-bottom: 15px;
+   
+}
+.footer a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center;
+    text-align: center;     
+}
+.fa-regular.fa-heart.hollow-heart{
+    padding-left: 350px;
+}
+
+
+
